@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "name": "GET products",
+      "method": "GET",
+      "path": "/?action=products",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "GET reviews",
+      "method": "GET",
+      "path": "/?action=reviews",
+      "expectedStatus": 200,
+      "bodyMatcher": "partial"
+    }
+  ]
+}
